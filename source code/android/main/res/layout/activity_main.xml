@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Manual"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_heightPercent="5%"-->
+<!--        app:layout_marginStartPercent="39%"-->
+<!--        app:layout_marginTopPercent="60%"-->
+<!--        app:layout_widthPercent="30%" />-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Relay 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="1%"
+        app:layout_marginTopPercent="70%"
+        app:layout_widthPercent="30%" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Relay 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="35%"
+        app:layout_marginTopPercent="70%"
+        app:layout_widthPercent="30%" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Manual"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="65%"
+        app:layout_marginTopPercent="70%"
+        app:layout_widthPercent="30%" />
+    <TextView
+        android:id="@+id/cod"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bordergreen"
+        android:gravity="center"
+        android:text="COD: 25%"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="2%"
+        app:layout_marginTopPercent="2%"
+        app:layout_widthPercent="45%" />
+    <TextView
+        android:id="@+id/ss"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bordergreen"
+        android:gravity="center"
+        android:text="SS: 25%"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="52%"
+        app:layout_marginTopPercent="2%"
+        app:layout_widthPercent="45%" />
+    <TextView
+        android:id="@+id/nh4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bordergreen"
+        android:gravity="center"
+        android:text="NH4: 25%"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="2%"
+        app:layout_marginTopPercent="18%"
+        app:layout_widthPercent="45%" />
+    <TextView
+        android:id="@+id/no3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bordergreen"
+        android:gravity="center"
+        android:text="NO3: 25%"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="52%"
+        app:layout_marginTopPercent="18%"
+        app:layout_widthPercent="45%" />
+    <TextView
+        android:id="@+id/ph"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bordergreen"
+        android:gravity="center"
+        android:text="pH: 25%"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="2%"
+        app:layout_marginTopPercent="35%"
+        app:layout_widthPercent="94%" />
+    />
+<!--    <ImageView-->
+<!--        android:id="@+id/image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/bordergreen"-->
+<!--        android:padding="5dp"-->
+<!--        app:layout_heightPercent="48%"-->
+<!--        app:layout_marginStartPercent="15%"-->
+<!--        app:layout_marginTopPercent="5%"-->
+<!--        app:layout_widthPercent="70%" />-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="90%"
+        app:layout_heightPercent="10%"
+        app:layout_marginStartPercent= "10%"
+        app:layout_marginTopPercent="90%"
+        android:text="IOT MONITORING"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <ToggleButton
+        android:id="@+id/rl1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rl1"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="30%"
+        app:layout_marginStartPercent="3%"
+        app:layout_marginTopPercent="60%"
+        />
+    <ToggleButton
+        android:id="@+id/rl2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rl2"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="30%"
+        app:layout_marginStartPercent="35%"
+        app:layout_marginTopPercent="60%"
+        />
+    <ToggleButton
+        android:id="@+id/rlm"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rlm"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="30%"
+        app:layout_marginStartPercent="67%"
+        app:layout_marginTopPercent="60%"
+        />
+
+<!--    <ToggleButton-->
+<!--        android:id="@+id/door"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:background="@drawable/door"-->
+<!--        android:checked="false"-->
+<!--        android:text=""-->
+<!--        android:textOff=""-->
+<!--        android:textOn=""-->
+<!--        app:layout_heightPercent="5%"-->
+<!--        app:layout_widthPercent="15%"-->
+<!--        app:layout_marginStartPercent="70%"-->
+<!--        app:layout_marginTopPercent="66%"-->
+<!--        />-->
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        app:layout_heightPercent="7%"
+        app:layout_marginStartPercent="0%"
+        app:layout_marginTopPercent="91%"
+        app:layout_widthPercent="10%" />
+
+
+
+
+</androidx.percentlayout.widget.PercentRelativeLayout>

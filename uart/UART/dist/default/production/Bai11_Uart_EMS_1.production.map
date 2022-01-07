@@ -1,0 +1,1231 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Tue Jan 04 10:36:08 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+           .code___init.o       code   0x000006    program   0x000002
+      InterruptVectorHigh       code   0x000008    program   0x000006
+      .romdata_fxd1616u.o    romdata   0x00000e    program   0x000000
+          .romdata_uart.o    romdata   0x00000e    program   0x000000
+          .idata_uart.o_i    romdata   0x00000e    program   0x000000
+      .romdata_fxd2424u.o    romdata   0x00000e    program   0x000000
+         .romdata_timer.o    romdata   0x00000e    program   0x000000
+          .romdata_main.o    romdata   0x00000e    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x00000e    program   0x000000
+           .romdata_lcd.o    romdata   0x00000e    program   0x000000
+      .romdata_fxd0808u.o    romdata   0x00000e    program   0x000000
+       .romdata_fxm3232.o    romdata   0x00000e    program   0x000000
+     .romdata_interrupt.o    romdata   0x00000e    program   0x000000
+     .idata_interrupt.o_i    romdata   0x00000e    program   0x000004
+        .romdata_button.o    romdata   0x00000e    program   0x000000
+        .romdata___init.o    romdata   0x00000e    program   0x000000
+           .romdata_i2c.o    romdata   0x00000e    program   0x000000
+           .romdata_adc.o    romdata   0x00000e    program   0x000000
+         .romdata_c018i.o    romdata   0x00000e    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x000012    program   0x000000
+      .idata_fxd0808u.o_i    romdata   0x000012    program   0x000000
+           .idata_adc.o_i    romdata   0x000012    program   0x000000
+      .idata_fxd2424u.o_i    romdata   0x000012    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x000012    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x000012    program   0x000000
+        .idata___init.o_i    romdata   0x000012    program   0x000000
+            .code_c018i.o       code   0x000012    program   0x000000
+         .idata_c018i.o_i    romdata   0x000012    program   0x000000
+       InterruptVectorLow       code   0x000018    program   0x000006
+                   .cinit    romdata   0x00001e    program   0x00004a
+             .code_main.o       code   0x000068    program   0x0016b0
+              .code_lcd.o       code   0x001718    program   0x000ef0
+            .code_timer.o       code   0x002608    program   0x0006a4
+                     PROG       code   0x002cac    program   0x000592
+             .code_uart.o       code   0x00323e    program   0x000544
+           .code_button.o       code   0x003782    program   0x000484
+              .code_i2c.o       code   0x003c06    program   0x00027c
+        .code_interrupt.o       code   0x003e82    program   0x0001d0
+              .code_adc.o       code   0x004052    program   0x000156
+               _cinit_scn       code   0x0041a8    program   0x00009e
+          .code_fxm3232.o       code   0x004246    program   0x000070
+             .stringtable    romdata   0x0042b6    program   0x00004e
+         .code_fxd3232u.o       code   0x004304    program   0x000048
+         .code_fxd2424u.o       code   0x00434c    program   0x00003a
+         .code_fxd1616u.o       code   0x004386    program   0x00002c
+                    .code       code   0x0043b2    program   0x000020
+             _startup_scn       code   0x0043d2    program   0x00001c
+         .code_fxd0808u.o       code   0x0043ee    program   0x00001c
+         .idata_timer.o_i    romdata   0x00440a    program   0x000020
+          .idata_main.o_i    romdata   0x00442a    program   0x000018
+           .idata_lcd.o_i    romdata   0x004442    program   0x000061
+           .idata_i2c.o_i    romdata   0x0044a3    program   0x00001c
+        .idata_button.o_i    romdata   0x0044bf    program   0x000028
+    .config_300001_main.o    romdata   0x300001    program   0x000001
+    .config_300002_main.o    romdata   0x300002    program   0x000001
+    .config_300003_main.o    romdata   0x300003    program   0x000001
+    .config_300005_main.o    romdata   0x300005    program   0x000001
+    .config_300006_main.o    romdata   0x300006    program   0x000001
+    .config_300008_main.o    romdata   0x300008    program   0x000001
+    .config_300009_main.o    romdata   0x300009    program   0x000001
+    .config_30000a_main.o    romdata   0x30000a    program   0x000001
+    .config_30000b_main.o    romdata   0x30000b    program   0x000001
+    .config_30000c_main.o    romdata   0x30000c    program   0x000001
+    .config_30000d_main.o    romdata   0x30000d    program   0x000001
+                MATH_DATA      udata   0x000000       data   0x000014
+                 .tmpdata      udata   0x000014       data   0x00000a
+             .idata_lcd.o      idata   0x000080       data   0x000061
+             .idata_i2c.o      idata   0x0000e1       data   0x00001c
+            .udata_uart.o      udata   0x0000fd       data   0x000001
+             .udata_i2c.o      udata   0x0000fe       data   0x000001
+          .udata___init.o      udata   0x0000ff       data   0x000000
+         .idata_fxm3232.o      idata   0x0000ff       data   0x000000
+         .udata_fxm3232.o      udata   0x0000ff       data   0x000000
+        .idata_fxd3232u.o      idata   0x0000ff       data   0x000000
+        .udata_fxd3232u.o      udata   0x0000ff       data   0x000000
+        .idata_fxd2424u.o      idata   0x0000ff       data   0x000000
+          .idata___init.o      idata   0x0000ff       data   0x000000
+        .udata_fxd2424u.o      udata   0x0000ff       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000ff       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000ff       data   0x000000
+        .idata_fxd0808u.o      idata   0x0000ff       data   0x000000
+        .udata_fxd0808u.o      udata   0x0000ff       data   0x000000
+             .idata_adc.o      idata   0x0000ff       data   0x000000
+            .idata_uart.o      idata   0x0000ff       data   0x000000
+       .udata_interrupt.o      udata   0x0000ff       data   0x000000
+          .udata_button.o      udata   0x0000ff       data   0x000000
+           .idata_c018i.o      idata   0x0000ff       data   0x000000
+            .udata_main.o      udata   0x000100       data   0x000015
+           .udata_c018i.o      udata   0x000115       data   0x00000a
+           .udata_timer.o      udata   0x00011f       data   0x000006
+             .udata_lcd.o      udata   0x000125       data   0x000004
+       .idata_interrupt.o      idata   0x000129       data   0x000004
+                   .stack      udata   0x000e00       data   0x000100
+          .idata_button.o      idata   0x000f00       data   0x000028
+             .udata_adc.o      udata   0x000f28       data   0x000020
+           .idata_timer.o      idata   0x000f48       data   0x000020
+            .idata_main.o      idata   0x000f68       data   0x000018
+            SFR_UNBANKED0      udata   0x000f80       data   0x000080
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000011      
+                            0x000018    0x0044e6      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            17644 out of 66584 program addresses used, program memory utilization is 26%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BCD2Dec   0x003c06    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+              BaiTap_UART   0x00061c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              CloseOutput   0x0004d4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                   D0808S   0x002e6c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                D0808SNEG   0x002e7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                 D0808SOK   0x002e76    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                  D0808SX   0x002e80    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                   D1616S   0x002eac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x002eba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x002eb6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x002ecc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D2424S   0x002f00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                D2424SNEG   0x002f0e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 D2424SOK   0x002f0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  D2424SX   0x002f26    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                   D3232S   0x002f60    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                D3232SNEG   0x002f6e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                 D3232SOK   0x002f6a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                  D3232SX   0x002f8e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                  DA0808S   0x002e62    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                  DA1616S   0x002e9c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA2424S   0x002eec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  DA3232S   0x002f4a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                  Dec2BCD   0x003c44    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+         DisplayLcdScreen   0x002056    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+        DisplayLcdScreen2   0x00214e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+      DisplayLcdScreenOld   0x0021d4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                 FLO1632S   0x002cb0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x002cac    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPD32   0x002cd6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x002d7c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 FXD0808S   0x002e56    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                 FXD0808U   0x0043ee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                 FXD1616S   0x002e8a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x004386    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXD2424S   0x002ed6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 FXD2424U   0x00434c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
+                 FXD3232S   0x002f30    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                 FXD3232U   0x004304    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                  FXM3232   0x004246    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+                  INT3216   0x002f98    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  INT3232   0x002ff6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+      InterruptVectorHigh   0x000008    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+       InterruptVectorLow   0x000018    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                LcdClearS   0x001ff8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            LcdPrintCharS   0x00223e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              LcdPrintNum   0x001f36    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+      LcdPrintNumPercentS   0x002538    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+             LcdPrintNumS   0x002294    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           LcdPrintString   0x001f7e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          LcdPrintStringS   0x0024e2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+               OpenOutput   0x000484    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              Read_DS1307   0x003e68    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+            ReverseOutput   0x000524    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 SendTime   0x0012fc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+             SetTimer0_ms   0x002c0c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             SetTimer1_ms   0x002c30    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             SetTimer3_ms   0x002c6e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+     SetupForFirstProgram   0x00167c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+     SetupTimeForRealTime   0x00169e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+        SimulateFull_COCA   0x000fa6    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                  TAGTB32   0x003064    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+                  TALTB32   0x003076    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
+               TestOutput   0x0005a0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              UartSendNum   0x00346e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+       UartSendNumPercent   0x0036a4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+           UartSendString   0x003340    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+             Write_DS1307   0x003e46    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+              __FpCompare   0x003088    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 __FpExit   0x00313e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x00316a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x003132    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x003144    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00315c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00314a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x003164    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x003140    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x003158    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x0031c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0031e2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x003212    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x0042b4    program     static                          
+       ___return_lbl00000   0x00434a    program     static                          
+       ___return_lbl00000   0x004408    program     static                          
+       ___return_lbl00000   0x004384    program     static                          
+       ___return_lbl00000   0x0043b0    program     static                          
+       ___return_lbl00001   0x0043ec    program     static                          
+       ___return_lbl00002   0x004244    program     static                          
+       ___return_lbl00002   0x00001c    program     static                          
+       ___return_lbl00003   0x00000c    program     static                          
+               __config_0   0x300001    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_1   0x300002    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __config_10   0x30000d    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_2   0x300003    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_3   0x300005    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_4   0x300006    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_5   0x300008    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_6   0x300009    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_7   0x30000a    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_8   0x30000b    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_9   0x30000c    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                   __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+               __string_0   0x004301    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_1   0x0042fe    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_10   0x0042d7    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_11   0x0042d3    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_12   0x0042cf    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_13   0x0042cb    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_14   0x0042c7    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_15   0x0042c2    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_16   0x0042bd    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_17   0x0042ba    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_18   0x0042b8    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_19   0x0042b6    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_2   0x0042fb    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_3   0x0042f8    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_4   0x0042f5    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_5   0x0042e4    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_6   0x0042e2    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_7   0x0042df    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_8   0x0042db    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_9   0x0042d9    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+            __zero_memory   0x0043b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                _do_cinit   0x0041a8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _false   0x004380    program     static                          
+                   _false   0x004346    program     static                          
+                 _startup   0x0043d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+          button_delay_ms   0x003a58    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                compare_l   0x0043c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                copy_loop   0x00421a    program     static                          
+            copy_one_byte   0x004220    program     static                          
+                delay_i2c   0x003ca0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 delay_ms   0x000374    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     done   0x004244    program     static                          
+             done_copying   0x00422e    program     static                          
+                  endloop   0x004404    program     static                          
+                  endloop   0x0043ac    program     static                          
+            get_adc_value   0x00406a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+                 high_isr   0x003f7c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+            i2c_read_byte   0x003d58    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+           i2c_start_cond   0x003cc8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+            i2c_stop_cond   0x003cdc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+           i2c_write_byte   0x003ce8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 init_adc   0x004052    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+            init_ext_int0   0x003e8a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                 init_i2c   0x003c9a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+           init_interrupt   0x003e82    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+          init_key_matrix   0x003782    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+init_key_matrix_with_uart   0x00378a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                 init_lcd   0x0018b8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              init_system   0x0003fc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              init_timer0   0x002608    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              init_timer1   0x00274c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              init_timer2   0x002896    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              init_timer3   0x0028ce    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                init_uart   0x00323e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                 jANotInf   0x002cf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotInf   0x002d9a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jANotZero   0x002d08    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                  jAisNeg   0x003104    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+              jBothFinite   0x002da8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x002db4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0030a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jEQ   0x0030c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExch   0x0030ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExit   0x002ff4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jExit   0x003062    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                   jExpEQ   0x003114    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x0030f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                jHaveZero   0x002db0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jI2F16Beg   0x002cc0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    jLoop   0x003036    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                    jLoop   0x002d30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jLoop   0x002fd4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                jLoopExit   0x00304a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                jLoopExit   0x002fe4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                     jMax   0x003006    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                     jMax   0x002fa8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x002fb6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x003018    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  jMaxPos   0x002fac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxPos   0x00300a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                      jNE   0x0030c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jNext   0x002d56    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x002d54    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                  jNoExch   0x0030ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jNotInf   0x002fc4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jNotInf   0x003024    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  jPkLoop   0x003178    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0031c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0031aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x003194    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00314e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jRotate   0x003120    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x00310a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+              jSignedZero   0x002cfe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jSignsEQ   0x0030aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jUnpkA1   0x0031ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x003204    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0031fa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00321c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x003234    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x00322a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00320e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                   jWr123   0x003010    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  jWrZ123   0x003020    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                    jZero   0x002fbe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jZero   0x00301e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+               jZero1and2   0x003152    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                lcd_clear   0x001c0a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                lcd_delay   0x001718    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+             lcd_power_of   0x001c1e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           lcd_print_char   0x001b76    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_print_charS   0x001fb2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_print_num   0x001d00    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_print_str   0x001b90    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              lcd_putchar   0x001b5c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_read_status   0x0019c6    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_sendCommand   0x001838    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           lcd_set_cursor   0x001bd0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_wait_busy   0x001a7c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_write_4bits   0x001a9c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_write_cmd   0x001ae2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           lcd_write_data   0x001b1e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                     loop   0x004390    program     static                          
+                     loop   0x004358    program     static                          
+                     loop   0x0043e2    program     static                          
+                     loop   0x0043f6    program     static                          
+                     loop   0x004312    program     static                          
+                   loop_h   0x0043c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_l   0x0043ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  low_isr   0x003e92    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                     main   0x000068    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              read_ds1307   0x003dfc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             read_sda_pin   0x003cc2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+          scan_key_matrix   0x003794    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+     scan_key_matrix_demo   0x003ae0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+scan_key_matrix_with_uart   0x0038f2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+             senddataUart   0x000a74    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+             start_timer0   0x0026c0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             start_timer1   0x002806    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             start_timer2   0x0028c2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             start_timer3   0x002984    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer0   0x0026bc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer1   0x002892    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer2   0x0028ca    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer3   0x002a10    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                     test   0x0041c2    program     static                          
+               timer0_isr   0x002a14    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer1_isr   0x002a58    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer2_isr   0x002bd4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer3_isr   0x002bf0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+            uart_delay_ms   0x00325c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                 uart_isr   0x003754    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+            uart_power_of   0x00338c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+             uart_putchar   0x0032e4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+            uart_send_str   0x003300    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                 v_timer0   0x0017a8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+             write_ds1307   0x003dc6    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+               zero_block   0x0043c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                COD_value   0x000108       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                   CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EEADRH   0x000faa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               FLOW_value   0x000110       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  HLVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              HLVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATD   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATDbits   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATE   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   LVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               LVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                LcdScreen   0x0000c1       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                NH4_value   0x00010a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                NO3_value   0x00010c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTD   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PWM1CON   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              PWM1CONbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     SIGN   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 SS_value   0x000106       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TMP_value   0x00010e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 UserFont   0x000080       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                        W   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 __AARGB0   0x000009       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB3   0x00000b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                __FPFLAGS   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                  __REMB0   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                        a   0x000114       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                  ack_bit   0x0000fe       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 ack_flag   0x0000f9       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 adcValue   0x000f7e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                adc_value   0x000f28       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+         arrayMapOfOutput   0x000f68       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+      arrayMaskInputOfKey   0x000f24       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+     arrayMaskOutputOfKey   0x000f20       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                 byte_num   0x0000e2       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                    check   0x000112       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     cnt0   0x000129       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                     cnt1   0x00012b       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                curr_byte   0x000118       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x00011a       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+              current_col   0x000127       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              current_row   0x000125       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              dataReceive   0x0000fd       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                 data_ptr   0x00011c       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     date   0x000f7b       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                flag_read   0x0000e1       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+              flag_timer0   0x000f50       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              flag_timer1   0x000f51       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              flag_timer2   0x000f52       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              flag_timer3   0x000f53       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                     hour   0x000f7a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 i2c_data   0x0000fb       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                index_add   0x0000e3       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                isStarted   0x0000fc       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 key_code   0x000f00       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                   minute   0x000f79       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                    month   0x000f7c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 pH_value   0x000104       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     prom   0x000115       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                read_data   0x0000ef       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             receive_data   0x0000fa       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             receive_flag   0x0000f8       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                   second   0x000f78       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              simulateCnt   0x000100       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+            simulateValue   0x000102       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                    state   0x000f42       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+                   state0   0x00011f       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   state1   0x000121       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   state2   0x000123       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                statusLCD   0x0000c0       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+             statusOutput   0x000f70       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                time0_MUL   0x000f60       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                time1_MUL   0x000f62       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                time2_MUL   0x000f64       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                time3_MUL   0x000f66       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer0_cnt   0x000f58       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             timer0_value   0x000f48       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer1_cnt   0x000f5a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             timer1_value   0x000f4a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer2_cnt   0x000f5c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             timer2_value   0x000f4c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer3_cnt   0x000f5e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             timer3_value   0x000f4e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   v_cnt0   0x000f54       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   v_cnt1   0x000f56       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               write_data   0x0000e4       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                     year   0x000f7d       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                   __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+      InterruptVectorHigh   0x000008    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+       ___return_lbl00003   0x00000c    program     static                          
+       InterruptVectorLow   0x000018    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+       ___return_lbl00002   0x00001c    program     static                          
+                     main   0x000068    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 delay_ms   0x000374    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              init_system   0x0003fc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               OpenOutput   0x000484    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              CloseOutput   0x0004d4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+            ReverseOutput   0x000524    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               TestOutput   0x0005a0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              BaiTap_UART   0x00061c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+             senddataUart   0x000a74    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+        SimulateFull_COCA   0x000fa6    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 SendTime   0x0012fc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+     SetupForFirstProgram   0x00167c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+     SetupTimeForRealTime   0x00169e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                lcd_delay   0x001718    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                 v_timer0   0x0017a8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_sendCommand   0x001838    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                 init_lcd   0x0018b8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_read_status   0x0019c6    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_wait_busy   0x001a7c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_write_4bits   0x001a9c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_write_cmd   0x001ae2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           lcd_write_data   0x001b1e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              lcd_putchar   0x001b5c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           lcd_print_char   0x001b76    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_print_str   0x001b90    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           lcd_set_cursor   0x001bd0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                lcd_clear   0x001c0a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+             lcd_power_of   0x001c1e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            lcd_print_num   0x001d00    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              LcdPrintNum   0x001f36    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+           LcdPrintString   0x001f7e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          lcd_print_charS   0x001fb2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                LcdClearS   0x001ff8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+         DisplayLcdScreen   0x002056    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+        DisplayLcdScreen2   0x00214e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+      DisplayLcdScreenOld   0x0021d4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+            LcdPrintCharS   0x00223e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+             LcdPrintNumS   0x002294    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+          LcdPrintStringS   0x0024e2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+      LcdPrintNumPercentS   0x002538    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              init_timer0   0x002608    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer0   0x0026bc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             start_timer0   0x0026c0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              init_timer1   0x00274c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             start_timer1   0x002806    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer1   0x002892    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              init_timer2   0x002896    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             start_timer2   0x0028c2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer2   0x0028ca    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              init_timer3   0x0028ce    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             start_timer3   0x002984    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              stop_timer3   0x002a10    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer0_isr   0x002a14    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer1_isr   0x002a58    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer2_isr   0x002bd4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer3_isr   0x002bf0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             SetTimer0_ms   0x002c0c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             SetTimer1_ms   0x002c30    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             SetTimer3_ms   0x002c6e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                 FLO1632U   0x002cac    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x002cb0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x002cc0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPD32   0x002cd6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotInf   0x002cf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+              jSignedZero   0x002cfe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jANotZero   0x002d08    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jLoop   0x002d30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x002d54    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jNext   0x002d56    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x002d7c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 jANotInf   0x002d9a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+              jBothFinite   0x002da8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jHaveZero   0x002db0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x002db4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 FXD0808S   0x002e56    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                  DA0808S   0x002e62    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                   D0808S   0x002e6c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                 D0808SOK   0x002e76    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                D0808SNEG   0x002e7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                  D0808SX   0x002e80    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808s.asm
+                 FXD1616S   0x002e8a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x002e9c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D1616S   0x002eac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x002eb6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x002eba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x002ecc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD2424S   0x002ed6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  DA2424S   0x002eec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                   D2424S   0x002f00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 D2424SOK   0x002f0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                D2424SNEG   0x002f0e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  D2424SX   0x002f26    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 FXD3232S   0x002f30    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                  DA3232S   0x002f4a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                   D3232S   0x002f60    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                 D3232SOK   0x002f6a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                D3232SNEG   0x002f6e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                  D3232SX   0x002f8e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232s.asm
+                  INT3216   0x002f98    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                     jMax   0x002fa8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxPos   0x002fac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x002fb6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jZero   0x002fbe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jNotInf   0x002fc4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jLoop   0x002fd4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                jLoopExit   0x002fe4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jExit   0x002ff4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  INT3232   0x002ff6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                     jMax   0x003006    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  jMaxPos   0x00300a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                   jWr123   0x003010    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  jMaxNeg   0x003018    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                    jZero   0x00301e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  jWrZ123   0x003020    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  jNotInf   0x003024    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                    jLoop   0x003036    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                jLoopExit   0x00304a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                    jExit   0x003062    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP32.asm
+                  TAGTB32   0x003064    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+                  TALTB32   0x003076    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
+              __FpCompare   0x003088    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jBothNotZero   0x0030a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 jSignsEQ   0x0030aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jEQ   0x0030c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jNE   0x0030c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExch   0x0030ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jNoExch   0x0030ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x0030f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jAisNeg   0x003104    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x00310a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jExpEQ   0x003114    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jRotate   0x003120    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x003132    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpExit   0x00313e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x003140    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x003144    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00314a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00314e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jZero1and2   0x003152    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x003158    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00315c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x003164    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x00316a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jPkLoop   0x003178    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x003194    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0031aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x0031c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0031c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0031e2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x0031ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0031fa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x003204    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00320e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x003212    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00321c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x00322a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x003234    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                init_uart   0x00323e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+            uart_delay_ms   0x00325c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+             uart_putchar   0x0032e4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+            uart_send_str   0x003300    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+           UartSendString   0x003340    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+            uart_power_of   0x00338c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+              UartSendNum   0x00346e    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+       UartSendNumPercent   0x0036a4    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                 uart_isr   0x003754    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+          init_key_matrix   0x003782    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+init_key_matrix_with_uart   0x00378a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+          scan_key_matrix   0x003794    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+scan_key_matrix_with_uart   0x0038f2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+          button_delay_ms   0x003a58    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+     scan_key_matrix_demo   0x003ae0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                  BCD2Dec   0x003c06    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                  Dec2BCD   0x003c44    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 init_i2c   0x003c9a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                delay_i2c   0x003ca0    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             read_sda_pin   0x003cc2    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+           i2c_start_cond   0x003cc8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+            i2c_stop_cond   0x003cdc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+           i2c_write_byte   0x003ce8    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+            i2c_read_byte   0x003d58    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             write_ds1307   0x003dc6    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+              read_ds1307   0x003dfc    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             Write_DS1307   0x003e46    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+              Read_DS1307   0x003e68    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+           init_interrupt   0x003e82    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+            init_ext_int0   0x003e8a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                  low_isr   0x003e92    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                 high_isr   0x003f7c    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                 init_adc   0x004052    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+            get_adc_value   0x00406a    program     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+                _do_cinit   0x0041a8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x0041c2    program     static                          
+                copy_loop   0x00421a    program     static                          
+            copy_one_byte   0x004220    program     static                          
+             done_copying   0x00422e    program     static                          
+       ___return_lbl00002   0x004244    program     static                          
+                     done   0x004244    program     static                          
+                  FXM3232   0x004246    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x0042b4    program     static                          
+              __string_19   0x0042b6    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_18   0x0042b8    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_17   0x0042ba    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_16   0x0042bd    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_15   0x0042c2    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_14   0x0042c7    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_13   0x0042cb    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_12   0x0042cf    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_11   0x0042d3    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __string_10   0x0042d7    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_9   0x0042d9    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_8   0x0042db    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_7   0x0042df    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_6   0x0042e2    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_5   0x0042e4    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_4   0x0042f5    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_3   0x0042f8    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_2   0x0042fb    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_1   0x0042fe    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __string_0   0x004301    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 FXD3232U   0x004304    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x004312    program     static                          
+                   _false   0x004346    program     static                          
+       ___return_lbl00000   0x00434a    program     static                          
+                 FXD2424U   0x00434c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
+                     loop   0x004358    program     static                          
+                   _false   0x004380    program     static                          
+       ___return_lbl00000   0x004384    program     static                          
+                 FXD1616U   0x004386    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x004390    program     static                          
+                  endloop   0x0043ac    program     static                          
+       ___return_lbl00000   0x0043b0    program     static                          
+            __zero_memory   0x0043b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               zero_block   0x0043c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_h   0x0043c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                compare_l   0x0043c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_l   0x0043ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 _startup   0x0043d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x0043e2    program     static                          
+       ___return_lbl00001   0x0043ec    program     static                          
+                 FXD0808U   0x0043ee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                     loop   0x0043f6    program     static                          
+                  endloop   0x004404    program     static                          
+       ___return_lbl00000   0x004408    program     static                          
+               __config_0   0x300001    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_1   0x300002    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_2   0x300003    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_3   0x300005    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_4   0x300006    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_5   0x300008    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_6   0x300009    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_7   0x30000a    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_8   0x30000b    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               __config_9   0x30000c    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+              __config_10   0x30000d    program     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     SIGN   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                  __REMB3   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB0   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB0   0x000009       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __BARGB3   0x00000b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB0   0x00000e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                   __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                  __tmp_0   0x000014       data     static E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+                 UserFont   0x000080       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                statusLCD   0x0000c0       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                LcdScreen   0x0000c1       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                flag_read   0x0000e1       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 byte_num   0x0000e2       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                index_add   0x0000e3       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+               write_data   0x0000e4       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                read_data   0x0000ef       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             receive_flag   0x0000f8       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 ack_flag   0x0000f9       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+             receive_data   0x0000fa       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                 i2c_data   0x0000fb       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+                isStarted   0x0000fc       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+              dataReceive   0x0000fd       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\uart\uart.c
+                  ack_bit   0x0000fe       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\i2c\i2c.c
+              simulateCnt   0x000100       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+            simulateValue   0x000102       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 pH_value   0x000104       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 SS_value   0x000106       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                COD_value   0x000108       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                NH4_value   0x00010a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                NO3_value   0x00010c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                TMP_value   0x00010e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+               FLOW_value   0x000110       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                    check   0x000112       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                        a   0x000114       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     prom   0x000115       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x000118       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x00011a       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x00011c       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   state0   0x00011f       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   state1   0x000121       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   state2   0x000123       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              current_row   0x000125       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+              current_col   0x000127       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\lcd\lcd.c
+                     cnt0   0x000129       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                     cnt1   0x00012b       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\interrupt\interrupt.c
+                 key_code   0x000f00       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+     arrayMaskOutputOfKey   0x000f20       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+      arrayMaskInputOfKey   0x000f24       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\button_matrix\button.c
+                adc_value   0x000f28       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+                    state   0x000f42       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\adc\adc.c
+             timer0_value   0x000f48       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             timer1_value   0x000f4a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             timer2_value   0x000f4c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+             timer3_value   0x000f4e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              flag_timer0   0x000f50       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              flag_timer1   0x000f51       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              flag_timer2   0x000f52       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+              flag_timer3   0x000f53       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   v_cnt0   0x000f54       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                   v_cnt1   0x000f56       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer0_cnt   0x000f58       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer1_cnt   0x000f5a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer2_cnt   0x000f5c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+               timer3_cnt   0x000f5e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                time0_MUL   0x000f60       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                time1_MUL   0x000f62       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                time2_MUL   0x000f64       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+                time3_MUL   0x000f66       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\timer\timer.c
+         arrayMapOfOutput   0x000f68       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+             statusOutput   0x000f70       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                   second   0x000f78       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                   minute   0x000f79       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     hour   0x000f7a       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     date   0x000f7b       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                    month   0x000f7c       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                     year   0x000f7d       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                 adcValue   0x000f7e       data     extern E:\deadline\DO AN TKLL\uart\Bai11_Uart_EMS_1\main.c
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTD   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATDbits   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATD   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     LATE   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   EEADRH   0x000faa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PWM1CON   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              PWM1CONbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               LVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   LVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              HLVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  HLVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                        W   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+
+
